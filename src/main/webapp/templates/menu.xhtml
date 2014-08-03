@@ -1,0 +1,21 @@
+<h:form id="menu" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<p:menubar>
+
+		<p:submenu id="customer" label="#{messages['menu.customer']}">
+
+			<p:menuitem id="users" value="#{messages['menu.users']}"
+				outcome="users" />
+
+			<p:menuitem id="orders" value="#{messages['menu.orders']}"
+				outcome="orders" />
+
+		</p:submenu>
+
+	</p:menubar>
+
+</h:form>
