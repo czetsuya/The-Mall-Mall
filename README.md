@@ -11,6 +11,8 @@ and use that deal right on.
 
 It will work like a GPS system with 2 components: a mini-satellite and a GPS receiver (can be any blue-tooth mobile device). The signal will be constrained on a small place like a mall, but will produce more accurate position. 
 
+The mobile application (iOS 7) is on another repository. Contact the author for more details and access.
+
 List of Possible Functions
 ----
 #####Feeds
@@ -38,7 +40,6 @@ List of Possible Functions
 
 Version
 ----
-
 1.0
 
 Tech
@@ -54,7 +55,6 @@ The Mall Mall uses the following technologies:
 
 Installation
 --------------
-
 ```sh
 git clone [git-repo-url] the-mall-mall
 cd the-mall-mall
